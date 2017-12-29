@@ -9,7 +9,7 @@ var fontList = [
   { title: 'avatar', icon: 'avatar' },
   { title: 'user', icon: 'user' },
   { title: 'lock', icon: 'lock' },
-  { title: 'phone', icon: 'phone' }
+  { title: 'phone', icon: 'phone' },
 ];
 
 var app = new Vue({
