@@ -1,0 +1,13 @@
+/* 字体路径
+ * -------------------------- */
+
+@font-face {
+  font-family: 'ku-icon';
+  src: url('#{$ku-font-path}/iconfont.eot?v=#{$ku-version}');
+  src: url('#{$ku-font-path}/iconfont.eot?#iefix&v=#{$ku-version}') format('embedded-opentype'),
+    url('#{$ku-font-path}/iconfont.woff?v=#{$ku-version}') format('woff'),
+    url('#{$ku-font-path}/iconfont.ttf?v=#{$ku-version}') format('truetype'),
+    url('#{$ku-font-path}/iconfont.svg?v=#{$ku-version}#ku-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

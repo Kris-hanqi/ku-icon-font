@@ -1,0 +1,28 @@
+// 旋转图标
+// --------------------------
+
+.#{$ku-css-prefix}-spin {
+  animation: fa-spin 2s infinite linear;
+}
+
+.#{$ku-css-prefix}-pulse {
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes ku-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes ku-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}

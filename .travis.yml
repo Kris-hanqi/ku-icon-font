@@ -1,0 +1,33 @@
+language: node_js
+node_js: stable
+
+# Travis-CI Caching
+cache:
+  directories:
+    - node_modules
+
+install:
+  - npm install
+
+before_script:
+  - npm install -g gulp-cli
+
+script:
+  - gulp
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "wangxingkang"
+  - git config user.email "156148958@qq.com"
+  - git add .
+  - git commit -m "Update docs"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
+
+branches:
+  only:
+    - master
+
+env:
+  global:
+    - GH_REF: github.com/hth-frontend/ku-icon-font.git

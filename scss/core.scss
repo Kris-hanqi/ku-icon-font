@@ -1,0 +1,11 @@
+// 基本的样式定义
+// -------------------------
+
+.#{$ku-css-prefix}-icon {
+  display: inline-block;
+  font: normal normal normal #{$ku-font-size-base}/#{$ku-line-height-base} "ku-icon";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

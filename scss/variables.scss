@@ -1,0 +1,35 @@
+// 变量
+// --------------------------
+$ku-font-path:                    "../fonts" !default;
+$ku-font-size-base:               14px !default;
+$ku-line-height-base:             1 !default;
+
+$ku-css-prefix:                   ku !default;
+$ku-version:                      "0.0.1" !default;
+
+// icon
+$ku-var-arrows:                   "\e601"; // 箭头
+$ku-var-arrows-alt:               "\e602"; // 箭头1
+$ku-var-eye:                      "\e603"; // 眼睛
+$ku-var-eye-close:                "\e604"; // 闭眼
+$ku-var-cog:                      "\e605"; // 齿轮
+$ku-var-home:                     "\e606"; // home
+$ku-var-dashboard:                "\e607"; // dashboard
+$ku-var-avatar:                   "\e608"; // avatar
+$ku-var-user:                     "\e609"; // 用户
+$ku-var-lock:                     "\e610"; // 锁
+$ku-var-phone:                    "\e611"; // 电话
+
+$icon-maps: (
+  'arrows':                       $ku-var-arrows,
+  'arrows-alt':                   $ku-var-arrows-alt,
+  'eye':                          $ku-var-eye,
+  'eye-close':                    $ku-var-eye-close,
+  'cog':                          $ku-var-cog,
+  'home':                         $ku-var-home,
+  'dashboard':                    $ku-var-dashboard,
+  'avatar':                       $ku-var-avatar,
+  'user':                         $ku-var-user,
+  'lock':                         $ku-var-lock,
+  'phone':                        $ku-var-phone
+);

@@ -1,0 +1,7 @@
+//icon
+
+@each $icon, $var in $icon-maps {
+  .icon-#{$icon}:before {
+    content: $var;
+  }
+}
