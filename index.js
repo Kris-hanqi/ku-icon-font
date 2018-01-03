@@ -10,6 +10,10 @@ var fontList = [
   { title: 'user', icon: 'user' },
   { title: 'lock', icon: 'lock' },
   { title: 'phone', icon: 'phone' },
+  { title: 'business', icon: 'business' },
+  { title: 'commodity', icon: 'commodity' },
+  { title: 'publicity', icon: 'publicity' },
+  { title: 'activity', icon: 'activity' },
 ];
 
 var app = new Vue({

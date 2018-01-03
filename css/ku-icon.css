@@ -1,9 +1,9 @@
 /*!
  * ku-icon-font -https://www.htouhui.com
- * Version - 0.0.2
+ * Version - 0.0.3
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
  *
- * Copyright (c) 2017 
+ * Copyright (c) 2018 
  */
 
 @charset "UTF-8";
@@ -11,8 +11,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'ku-icon';
-  src: url("../fonts/iconfont.eot?v=0.0.2");
-  src: url("../fonts/iconfont.eot?#iefix&v=0.0.2") format("embedded-opentype"), url("../fonts/iconfont.woff?v=0.0.2") format("woff"), url("../fonts/iconfont.ttf?v=0.0.2") format("truetype"), url("../fonts/iconfont.svg?v=0.0.2#ku-icon") format("svg");
+  src: url("../fonts/iconfont.eot?v=0.0.3");
+  src: url("../fonts/iconfont.eot?#iefix&v=0.0.3") format("embedded-opentype"), url("../fonts/iconfont.woff?v=0.0.3") format("woff"), url("../fonts/iconfont.ttf?v=0.0.3") format("truetype"), url("../fonts/iconfont.svg?v=0.0.3#ku-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -59,6 +59,18 @@
 
 .icon-chart:before {
   content: ""; }
+
+.icon-business:before {
+  content: ""; }
+
+.icon-commodity:before {
+  content: ""; }
+
+.icon-publicity:before {
+  content: ""; }
+
+.icon-activity:before {
+  content: ""; }
 
 .ku-spin {
   -webkit-animation: fa-spin 2s infinite linear;
