@@ -5,7 +5,7 @@ $ku-font-size-base:               14px !default;
 $ku-line-height-base:             1 !default;
 
 $ku-css-prefix:                   ku !default;
-$ku-version:                      "0.0.3" !default;
+$ku-version:                      "0.0.4" !default;
 
 // icon
 $ku-var-arrows:                   "\e601"; // 箭头
@@ -24,6 +24,7 @@ $ku-var-business:                 "\e613"; // 商家
 $ku-var-commodity:                "\e614"; // 商品
 $ku-var-publicity:                "\e615"; // 广告
 $ku-var-activity:                 "\e616"; // 活动
+$ku-var-order:                    "\e617"; // 订单
 
 $icon-maps: (
   'arrows':                       $ku-var-arrows,
@@ -42,4 +43,5 @@ $icon-maps: (
   'commodity':                    $ku-var-commodity,
   'publicity':                    $ku-var-publicity,
   'activity':                     $ku-var-activity,
+  'order':                        $ku-var-order,
 );
