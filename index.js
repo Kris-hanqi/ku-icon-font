@@ -16,6 +16,7 @@ var fontList = [
   { title: 'activity', icon: 'activity' },
   { title: 'order', icon: 'order' },
   { title: 'clientele', icon: 'clientele' },
+  { title: 'account', icon: 'account' },
 ];
 
 var app = new Vue({

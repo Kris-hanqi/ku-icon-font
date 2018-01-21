@@ -5,7 +5,7 @@ $ku-font-size-base:               14px !default;
 $ku-line-height-base:             1 !default;
 
 $ku-css-prefix:                   ku !default;
-$ku-version:                      "0.0.5" !default;
+$ku-version:                      "0.0.6" !default;
 
 // icon
 $ku-var-arrows:                   "\e601"; // 箭头
@@ -26,6 +26,7 @@ $ku-var-publicity:                "\e615"; // 广告
 $ku-var-activity:                 "\e616"; // 活动
 $ku-var-order:                    "\e617"; // 订单
 $ku-var-clientele:                "\e618"; // 客户
+$ku-var-account:                  "\e619"; // 账户
 
 $icon-maps: (
   'arrows':                       $ku-var-arrows,
@@ -45,5 +46,6 @@ $icon-maps: (
   'publicity':                    $ku-var-publicity,
   'activity':                     $ku-var-activity,
   'order':                        $ku-var-order,
-  'clientele':                    $ku-var-clientele
+  'clientele':                    $ku-var-clientele,
+  'account':                      $ku-var-account
 );
