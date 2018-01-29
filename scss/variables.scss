@@ -5,7 +5,7 @@ $ku-font-size-base:               14px !default;
 $ku-line-height-base:             1 !default;
 
 $ku-css-prefix:                   ku !default;
-$ku-version:                      "0.0.7" !default;
+$ku-version:                      "0.0.8" !default;
 
 // icon
 $ku-var-arrows:                   "\e601"; // 箭头
@@ -27,7 +27,8 @@ $ku-var-activity:                 "\e616"; // 活动
 $ku-var-order:                    "\e617"; // 订单
 $ku-var-clientele:                "\e618"; // 客户
 $ku-var-account:                  "\e619"; // 账户
-$ku-var-no-data:                  "\e620"; // 账户
+$ku-var-no-data:                  "\e620"; // 无数据
+$ku-var-plus:                     "\e621"; // +
 
 $icon-maps: (
   'arrows':                       $ku-var-arrows,
@@ -49,5 +50,6 @@ $icon-maps: (
   'order':                        $ku-var-order,
   'clientele':                    $ku-var-clientele,
   'account':                      $ku-var-account,
-  'no-data':                      $ku-var-no-data
+  'no-data':                      $ku-var-no-data,
+  'plus':                         $ku-var-plus
 );

@@ -1,6 +1,6 @@
 /*!
  * ku-icon-font -https://www.htouhui.com
- * Version - 0.0.6
+ * Version - 0.0.8
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
  *
  * Copyright (c) 2018 
@@ -11,8 +11,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'ku-icon';
-  src: url("../fonts/iconfont.eot?v=0.0.7");
-  src: url("../fonts/iconfont.eot?#iefix&v=0.0.7") format("embedded-opentype"), url("../fonts/iconfont.woff?v=0.0.7") format("woff"), url("../fonts/iconfont.ttf?v=0.0.7") format("truetype"), url("../fonts/iconfont.svg?v=0.0.7#ku-icon") format("svg");
+  src: url("../fonts/iconfont.eot?v=0.0.8");
+  src: url("../fonts/iconfont.eot?#iefix&v=0.0.8") format("embedded-opentype"), url("../fonts/iconfont.woff?v=0.0.8") format("woff"), url("../fonts/iconfont.ttf?v=0.0.8") format("truetype"), url("../fonts/iconfont.svg?v=0.0.8#ku-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -83,6 +83,9 @@
 
 .icon-no-data:before {
   content: ""; }
+
+.icon-plus:before {
+  content: ""; }
 
 .ku-spin {
   -webkit-animation: fa-spin 2s infinite linear;
