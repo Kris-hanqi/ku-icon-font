@@ -18,7 +18,11 @@ var fontList = [
   { title: 'clientele', icon: 'clientele' },
   { title: 'account', icon: 'account' },
   { title: 'no-data', icon: 'no-data' },
-  { title: 'plus', icon: 'plus' },
+  { title: 'work-order', icon: 'work-order' },
+  { title: 'performance', icon: 'performance' },
+  { title: 'salary', icon: 'salary' },
+  { title: 'bills', icon: 'bills' },
+  { title: 'task-assignment', icon: 'task-assignment' },
 ];
 
 var app = new Vue({

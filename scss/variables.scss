@@ -5,7 +5,7 @@ $ku-font-size-base:               14px !default;
 $ku-line-height-base:             1 !default;
 
 $ku-css-prefix:                   ku !default;
-$ku-version:                      "0.0.8" !default;
+$ku-version:                      "0.0.9" !default;
 
 // icon
 $ku-var-arrows:                   "\e601"; // 箭头
@@ -29,6 +29,11 @@ $ku-var-clientele:                "\e618"; // 客户
 $ku-var-account:                  "\e619"; // 账户
 $ku-var-no-data:                  "\e620"; // 无数据
 $ku-var-plus:                     "\e621"; // +
+$ku-var-work-order:               "\e622"; // 工单
+$ku-var-performance:              "\e623"; // 绩效
+$ku-var-salary:                   "\e624"; // 薪资
+$ku-var-bills:                    "\e625"; // 对账
+$ku-var-task-assignment:          "\e626"; // 任务分配
 
 $icon-maps: (
   'arrows':                       $ku-var-arrows,
@@ -51,5 +56,10 @@ $icon-maps: (
   'clientele':                    $ku-var-clientele,
   'account':                      $ku-var-account,
   'no-data':                      $ku-var-no-data,
-  'plus':                         $ku-var-plus
+  'plus':                         $ku-var-plus,
+  'work-order':                   $ku-var-work-order,
+  'performance':                  $ku-var-performance,
+  'salary':                       $ku-var-salary,
+  'bills':                        $ku-var-bills,
+  'task-assignment':              $ku-var-task-assignment,
 );
